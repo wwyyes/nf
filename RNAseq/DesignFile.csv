@@ -1,0 +1,7 @@
+sample,fastq_1,fastq_2,strandedness
+sample1,${fqDir}sample1_L001_R1_001.fastq.gz,${fqDir}sample1_L001_R2_001.fastq.gz,auto
+sample1,${fqDir}sample1_L002_R1_001.fastq.gz,${fqDir}sample1_L002_R2_001.fastq.gz,auto
+sample2,${fqDir}sample2_L003_R1_001.fastq.gz,${fqDir}sample1_L003_R2_001.fastq.gz,auto
+sample2,${fqDir}sample2_L004_R1_001.fastq.gz,${fqDir}sample1_L004_R2_001.fastq.gz,auto
+sample3,${fqDir}sample3_L005_R1_001.fastq.gz,${fqDir}sample1_L005_R2_001.fastq.gz,auto
+sample3,${fqDir}sample3_L006_R1_001.fastq.gz,${fqDir}sample1_L006_R2_001.fastq.gz,auto
