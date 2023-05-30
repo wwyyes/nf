@@ -1,7 +1,7 @@
 #!/bin/bash
 
 wdir=${projectDir}
-proj=$(echo $wdir | perl -ne '$_ =~ s/.*CBBI_Projects\///; $_ =~ s/\/.*//;; print')
+proj=$(echo $wdir)
 dt=$(date '+%Y_%m_%d_%H_%M_%S');
 runname="mRNAseq_${proj}_${dt}"
 
